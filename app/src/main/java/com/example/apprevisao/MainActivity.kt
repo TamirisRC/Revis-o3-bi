@@ -21,6 +21,10 @@ class MainActivity : AppCompatActivity() {
 
         btnCadastrar.setOnClickListener {
             val intent = Intent(this, RespostaActivity::class.java)
+            intent.putExtra("nome",edtNome.text.toString())
+            intent.putExtra("endereço",edtEndereco.text.toString())
+            intent.putExtra("bairro",edtBairro.text.toString())
+            intent.putExtra("cep",edtCep.text.toString())
             startActivity(intent)
         }
     }

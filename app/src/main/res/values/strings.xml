@@ -5,6 +5,7 @@
     <string name="txtCep">CEP: </string>
     <string name="txtEndereco">Endereço: </string>
     <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnConfirmar">Cadastrar</string>
     <string name="title">Cadastro</string>
     <string name="title2">Formulário de Resposta</string>
 </resources>
